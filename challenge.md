@@ -4,7 +4,7 @@
 
    - How would you select from JavaScript an element `p` that has the class `text` and also the class `important`?
 
-      const importantText = document.querySelector("p.text.important");
+    const importantText = document.querySelector("p.text.important");
 
    - How would you select from JavaScript a `button` element with class `button` and that is disabled?
 
@@ -32,11 +32,13 @@
   </section>
 </main>
 ```
-      const h2 = document.querySelector(".subtitle");
+```js
+//ANSWER
+const h2 = document.querySelector(".subtitle");
       h2.textContent="The MERN stack"
       h2.ClassList.remove("subtitle");
-  	
 ```
+      
 
 3. Here you have an HTML without data:
 
@@ -53,6 +55,9 @@ Create a script where you declare a variable with a student's data
 (name, age and photo URL). Next, get the elements from the HTML
 and fill them in with the student's information.
 
+```js
+//ANSWER
+
 const student-data{     
   name.textContent="Núria";
   age.textContent= "26";
@@ -62,3 +67,4 @@ const student-data{
   const name = document.querySelector(".student-name");
   const age = document.querySelector(".student-age");
   const image = document.querySelector(".student-photo");
+```
